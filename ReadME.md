@@ -16,3 +16,16 @@ This project follows trunk-based development principles:
 1. Short-lived feature branches are created from `main`
 2. Changes are reviewed via pull requests before merging
 3. Releases are tagged from dedicated release branches
+
+## New Feature: User Authentication
+Added support for user authentication module with the following capabilities:
+- User login and logout
+- Session management
+- Role-based access control
+
+## Contributing
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/your-feature`
+3. Commit your changes: `git commit -m "Add your feature"`
+4. Push to the branch: `git push origin feature/your-feature`
+5. Open a pull request
