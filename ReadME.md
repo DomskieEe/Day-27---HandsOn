@@ -1,4 +1,5 @@
 # Day 27 - Hands On: Git Branching Strategies
+**Release: v1.0.0** | Status: Stable
 
 ## Overview
 This repository demonstrates Git branching strategies and collaborative workflows.
@@ -28,4 +29,12 @@ Added support for user authentication module with the following capabilities:
 2. Create a feature branch: `git checkout -b feature/your-feature`
 3. Commit your changes: `git commit -m "Add your feature"`
 4. Push to the branch: `git push origin feature/your-feature`
-5. Open a pull request
+5. Run tests: `npm test`
+6. Open a pull request
+
+## Changelog
+### v1.0.0
+- Initial stable release
+- Added user authentication module documentation
+- Added contributing guidelines
+- Implemented trunk-based development workflow

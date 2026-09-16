@@ -1,0 +1,26 @@
+{
+  "featureFlags": {
+    "userAuthentication": {
+      "enabled": true,
+      "description": "Enables user login, logout, and session management",
+      "rolloutPercentage": 100
+    },
+    "roleBasedAccessControl": {
+      "enabled": true,
+      "description": "Enables role-based access control for users",
+      "rolloutPercentage": 100
+    },
+    "darkMode": {
+      "enabled": false,
+      "description": "Enables dark mode UI theme",
+      "rolloutPercentage": 0
+    },
+    "betaDashboard": {
+      "enabled": false,
+      "description": "Enables the new beta dashboard layout",
+      "rolloutPercentage": 0
+    }
+  },
+  "version": "1.0.0",
+  "environment": "production"
+}
